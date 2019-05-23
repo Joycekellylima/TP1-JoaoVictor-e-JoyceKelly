@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(){
+   int x, y;
+   printf("digite dois inteiros e diga se há intervalo entre eles:\n");
+   scanf("%i %i", &x, &y);
+   while(x <= y){
+      if(x%2==0){
+         printf("%i par\n", x);
+      }
+      a++;
+   }
+}
+
